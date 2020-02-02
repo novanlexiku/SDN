@@ -29,44 +29,44 @@
         color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
     -->
     <li class="nav-item">
-        <a class="nav-link" href="#kelas-7" role="tab" data-toggle="tab">
+        <a class="nav-link" href="#kelas-1" role="tab" data-toggle="tab">
             <i class="material-icons">filter_1</i>
             Kelas 1
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#kelas-8" role="tab" data-toggle="tab">
+        <a class="nav-link" href="#kelas-2" role="tab" data-toggle="tab">
             <i class="material-icons">filter_2</i>
             Kelas 2
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#kelas-9" role="tab" data-toggle="tab">
+        <a class="nav-link" href="#kelas-3" role="tab" data-toggle="tab">
             <i class="material-icons">filter_3</i>
             Kelas 3
         </a>
     </li>
 	<li class="nav-item">
-        <a class="nav-link" href="#kelas-9" role="tab" data-toggle="tab">
+        <a class="nav-link" href="#kelas-4" role="tab" data-toggle="tab">
             <i class="material-icons">filter_4</i>
             Kelas 4
         </a>
     </li>
 	<li class="nav-item">
-        <a class="nav-link" href="#kelas-9" role="tab" data-toggle="tab">
+        <a class="nav-link" href="#kelas-5" role="tab" data-toggle="tab">
             <i class="material-icons">filter_5</i>
             Kelas 5
         </a>
     </li>
 	<li class="nav-item">
-        <a class="nav-link" href="#kelas-9" role="tab" data-toggle="tab">
+        <a class="nav-link" href="#kelas-6" role="tab" data-toggle="tab">
             <i class="material-icons">filter_6</i>
             Kelas 6
         </a>
     </li>
 </ul>
 <div class="tab-content tab-space">
-    <div class="tab-pane" id="kelas-7">
+    <div class="tab-pane" id="kelas-1">
       <div class="card card-nav-tabs card-plain">
     <div class="card-header card-header-primary">
         <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -74,21 +74,33 @@
             <div class="nav-tabs-wrapper">
                 <ul class="nav nav-tabs" data-tabs="tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#kelas-7a" data-toggle="tab">A</a>
+                        <a class="nav-link active" href="#kelas-1a" data-toggle="tab">A</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#kelas-7b" data-toggle="tab">B</a>
+                        <a class="nav-link" href="#kelas-1b" data-toggle="tab">B</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#kelas-7c" data-toggle="tab">C</a>
+                        <a class="nav-link" href="#kelas-1c" data-toggle="tab">C</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-1d" data-toggle="tab">D</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-1e" data-toggle="tab">E</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-1f" data-toggle="tab">F</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-1g" data-toggle="tab">G</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div><div class="card-body ">
         <div class="tab-content text-center">
-            <div class="tab-pane active" id="kelas-7a">
-                <table class="table table-hover" id="mytable7a">
+            <div class="tab-pane active" id="kelas-1a">
+                <table class="table table-hover" id="mytable1a">
                                             <thead class=" text-primary">
                                                 <tr>
 																			<th>Kode</th>
@@ -99,8 +111,8 @@
                                             </thead>
                                          </table>
             </div>
-            <div class="tab-pane" id="kelas-7b">
-                <table class="table table-hover" id="mytable7b">
+            <div class="tab-pane" id="kelas-1b">
+                <table class="table table-hover" id="mytable1b">
                                             <thead class=" text-primary">
                                                 <tr>
 																			<th>Kode</th>
@@ -111,8 +123,56 @@
                                             </thead>
                                          </table>
             </div>
-            <div class="tab-pane" id="kelas-7c">
-                <table class="table table-hover" id="mytable7c">
+            <div class="tab-pane" id="kelas-1c">
+                <table class="table table-hover" id="mytable1c">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-1d">
+                <table class="table table-hover" id="mytable1d">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-1e">
+                <table class="table table-hover" id="mytable1e">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-1f">
+                <table class="table table-hover" id="mytable1f">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-1g">
+                <table class="table table-hover" id="mytable1g">
                                             <thead class=" text-primary">
                                                 <tr>
 																			<th>Kode</th>
@@ -127,7 +187,7 @@
     </div>
   </div>
     </div>
-    <div class="tab-pane" id="kelas-8">
+    <div class="tab-pane" id="kelas-2">
       <div class="card card-nav-tabs card-plain">
     <div class="card-header card-header-primary">
         <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -135,21 +195,33 @@
             <div class="nav-tabs-wrapper">
                 <ul class="nav nav-tabs" data-tabs="tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#kelas-8a" data-toggle="tab">A</a>
+                        <a class="nav-link active" href="#kelas-2a" data-toggle="tab">A</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#kelas-8b" data-toggle="tab">B</a>
+                        <a class="nav-link" href="#kelas-2b" data-toggle="tab">B</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#kelas-8c" data-toggle="tab">C</a>
+                        <a class="nav-link" href="#kelas-2c" data-toggle="tab">C</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-2d" data-toggle="tab">D</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-2e" data-toggle="tab">E</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-2f" data-toggle="tab">F</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-2g" data-toggle="tab">G</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div><div class="card-body ">
         <div class="tab-content text-center">
-            <div class="tab-pane active" id="kelas-8a">
-                <table class="table table-hover" id="mytable8a">
+            <div class="tab-pane active" id="kelas-2a">
+                <table class="table table-hover" id="mytable2a">
                                             <thead class=" text-primary">
                                                 <tr>
 																			<th>Kode</th>
@@ -160,8 +232,8 @@
                                             </thead>
                                          </table>
             </div>
-            <div class="tab-pane" id="kelas-8b">
-                <table class="table table-hover" id="mytable8b">
+            <div class="tab-pane" id="kelas-2b">
+                <table class="table table-hover" id="mytable2b">
                                             <thead class=" text-primary">
                                                 <tr>
 																			<th>Kode</th>
@@ -172,8 +244,56 @@
                                             </thead>
                                          </table>
             </div>
-            <div class="tab-pane" id="kelas-8c">
-                <table class="table table-hover" id="mytable8c">
+            <div class="tab-pane" id="kelas-2c">
+                <table class="table table-hover" id="mytable2c">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-2d">
+                <table class="table table-hover" id="mytable2d">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-2e">
+                <table class="table table-hover" id="mytable2e">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-2f">
+                <table class="table table-hover" id="mytable2f">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-2g">
+                <table class="table table-hover" id="mytable2g">
                                             <thead class=" text-primary">
                                                 <tr>
 																			<th>Kode</th>
@@ -188,29 +308,41 @@
     </div>
   </div>
     </div>
-    <div class="tab-pane" id="kelas-9">
-        <div class="card card-nav-tabs card-plain">
+    <div class="tab-pane" id="kelas-3">
+      <div class="card card-nav-tabs card-plain">
     <div class="card-header card-header-primary">
         <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
         <div class="nav-tabs-navigation">
             <div class="nav-tabs-wrapper">
                 <ul class="nav nav-tabs" data-tabs="tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#kelas-9a" data-toggle="tab">A</a>
+                        <a class="nav-link active" href="#kelas-3a" data-toggle="tab">A</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#kelas-9b" data-toggle="tab">B</a>
+                        <a class="nav-link" href="#kelas-3b" data-toggle="tab">B</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#kelas-9c" data-toggle="tab">C</a>
+                        <a class="nav-link" href="#kelas-3c" data-toggle="tab">C</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-3d" data-toggle="tab">D</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-3e" data-toggle="tab">E</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-3f" data-toggle="tab">F</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-3g" data-toggle="tab">G</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div><div class="card-body ">
         <div class="tab-content text-center">
-            <div class="tab-pane active" id="kelas-9a">
-               <table class="table table-hover" id="mytable9a">
+            <div class="tab-pane active" id="kelas-3a">
+                <table class="table table-hover" id="mytable3a">
                                             <thead class=" text-primary">
                                                 <tr>
 																			<th>Kode</th>
@@ -221,8 +353,8 @@
                                             </thead>
                                          </table>
             </div>
-            <div class="tab-pane" id="kelas-9b">
-                <table class="table table-hover" id="mytable9b">
+            <div class="tab-pane" id="kelas-3b">
+                <table class="table table-hover" id="mytable3b">
                                             <thead class=" text-primary">
                                                 <tr>
 																			<th>Kode</th>
@@ -233,8 +365,56 @@
                                             </thead>
                                          </table>
             </div>
-            <div class="tab-pane" id="kelas-9c">
-                <table class="table table-hover" id="mytable9c">
+            <div class="tab-pane" id="kelas-3c">
+                <table class="table table-hover" id="mytable3c">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-3d">
+                <table class="table table-hover" id="mytable3d">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-3e">
+                <table class="table table-hover" id="mytable3e">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-3f">
+                <table class="table table-hover" id="mytable3f">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-3g">
+                <table class="table table-hover" id="mytable3g">
                                             <thead class=" text-primary">
                                                 <tr>
 																			<th>Kode</th>
@@ -249,6 +429,371 @@
     </div>
   </div>
     </div>
+	<div class="tab-pane" id="kelas-4">
+      <div class="card card-nav-tabs card-plain">
+    <div class="card-header card-header-primary">
+        <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+        <div class="nav-tabs-navigation">
+            <div class="nav-tabs-wrapper">
+                <ul class="nav nav-tabs" data-tabs="tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#kelas-4a" data-toggle="tab">A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas-4b" data-toggle="tab">B</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas-4c" data-toggle="tab">C</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-4d" data-toggle="tab">D</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-4e" data-toggle="tab">E</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-4f" data-toggle="tab">F</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-4g" data-toggle="tab">G</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><div class="card-body ">
+        <div class="tab-content text-center">
+            <div class="tab-pane active" id="kelas-4a">
+                <table class="table table-hover" id="mytable4a">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+            <div class="tab-pane" id="kelas-4b">
+                <table class="table table-hover" id="mytable4b">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+            <div class="tab-pane" id="kelas-4c">
+                <table class="table table-hover" id="mytable4c">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-4d">
+                <table class="table table-hover" id="mytable4d">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-4e">
+                <table class="table table-hover" id="mytable4e">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-4f">
+                <table class="table table-hover" id="mytable4f">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-4g">
+                <table class="table table-hover" id="mytable4g">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+        </div>
+    </div>
+  </div>
+    </div>
+	<div class="tab-pane" id="kelas-5">
+      <div class="card card-nav-tabs card-plain">
+    <div class="card-header card-header-primary">
+        <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+        <div class="nav-tabs-navigation">
+            <div class="nav-tabs-wrapper">
+                <ul class="nav nav-tabs" data-tabs="tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#kelas-5a" data-toggle="tab">A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas-5b" data-toggle="tab">B</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas-5c" data-toggle="tab">C</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-5d" data-toggle="tab">D</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-5e" data-toggle="tab">E</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-5f" data-toggle="tab">F</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-5g" data-toggle="tab">G</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><div class="card-body ">
+        <div class="tab-content text-center">
+            <div class="tab-pane active" id="kelas-5a">
+                <table class="table table-hover" id="mytable5a">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+            <div class="tab-pane" id="kelas-5b">
+                <table class="table table-hover" id="mytable5b">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+            <div class="tab-pane" id="kelas-5c">
+                <table class="table table-hover" id="mytable5c">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-5d">
+                <table class="table table-hover" id="mytable5d">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-5e">
+                <table class="table table-hover" id="mytable5e">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-5f">
+                <table class="table table-hover" id="mytable5f">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-5g">
+                <table class="table table-hover" id="mytable5g">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+        </div>
+    </div>
+  </div>
+    </div>
+	<div class="tab-pane" id="kelas-6">
+      <div class="card card-nav-tabs card-plain">
+    <div class="card-header card-header-primary">
+        <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+        <div class="nav-tabs-navigation">
+            <div class="nav-tabs-wrapper">
+                <ul class="nav nav-tabs" data-tabs="tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#kelas-6a" data-toggle="tab">A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas-6b" data-toggle="tab">B</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas-6c" data-toggle="tab">C</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-6d" data-toggle="tab">D</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-6e" data-toggle="tab">E</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-6f" data-toggle="tab">F</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#kelas-6g" data-toggle="tab">G</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><div class="card-body ">
+        <div class="tab-content text-center">
+            <div class="tab-pane active" id="kelas-6a">
+                <table class="table table-hover" id="mytable6a">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+            <div class="tab-pane" id="kelas-6b">
+                <table class="table table-hover" id="mytable6b">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+            <div class="tab-pane" id="kelas-6c">
+                <table class="table table-hover" id="mytable6c">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-6d">
+                <table class="table table-hover" id="mytable6d">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-6e">
+                <table class="table table-hover" id="mytable6e">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-6f">
+                <table class="table table-hover" id="mytable6f">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="kelas-6g">
+                <table class="table table-hover" id="mytable6g">
+                                            <thead class=" text-primary">
+                                                <tr>
+																			<th>Kode</th>
+																			<th>Nama</th>
+																			<th>Status</th>
+			                                								<th>Kelas</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+        </div>
+    </div>
+  </div>
+    </div>
+
+
 </div>
 					<div class="col-md-12">
                             <div class="card">
@@ -506,9 +1051,9 @@ elseif($message == "sukseshapus"){
 					 }
 
 			 });
-			 var table = $("#mytable7a").dataTable({
+			 var table = $("#mytable1a").dataTable({
 
-							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas7a_json'?>", "type": "POST"},
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas1a_json'?>", "type": "POST"},
 									columns: [
 												{"data": "guru_kode"},
 												{"data": "guru_nama"},
@@ -524,9 +1069,9 @@ elseif($message == "sukseshapus"){
 					 }
 
 			 });
-			 var table = $("#mytable7b").dataTable({
+			 var table = $("#mytable1b").dataTable({
 
-							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas7b_json'?>", "type": "POST"},
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas1b_json'?>", "type": "POST"},
 									columns: [
 												{"data": "guru_kode"},
 												{"data": "guru_nama"},
@@ -542,9 +1087,9 @@ elseif($message == "sukseshapus"){
 					 }
 
 			 });
-			 var table = $("#mytable7c").dataTable({
+			 var table = $("#mytable1c").dataTable({
 
-							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas7c_json'?>", "type": "POST"},
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas1c_json'?>", "type": "POST"},
 									columns: [
 												{"data": "guru_kode"},
 												{"data": "guru_nama"},
@@ -560,9 +1105,9 @@ elseif($message == "sukseshapus"){
 					 }
 
 			 });
-			 var table = $("#mytable8a").dataTable({
+			 var table = $("#mytable1d").dataTable({
 
-							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas8a_json'?>", "type": "POST"},
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas1d_json'?>", "type": "POST"},
 									columns: [
 												{"data": "guru_kode"},
 												{"data": "guru_nama"},
@@ -578,27 +1123,9 @@ elseif($message == "sukseshapus"){
 					 }
 
 			 });
-			 var table = $("#mytable8b").dataTable({
+			 var table = $("#mytable1e").dataTable({
 
-							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas8b_json'?>", "type": "POST"},
-									columns: [
-												{"data": "guru_kode"},
-												{"data": "guru_nama"},
-												 {"data": "role_nama"},
-													{"data": "kelas_nama"}
-									 ],
-							order: [[1, 'asc']],
-					 rowCallback: function(row, data, iDisplayIndex) {
-							 var info = this.fnPagingInfo();
-							 var page = info.iPage;
-							 var length = info.iLength;
-							 $('td:eq(0)', row).html();
-					 }
-
-			 });
-			 var table = $("#mytable8c").dataTable({
-
-							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas8c_json'?>", "type": "POST"},
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas1e_json'?>", "type": "POST"},
 									columns: [
 												{"data": "guru_kode"},
 												{"data": "guru_nama"},
@@ -614,9 +1141,9 @@ elseif($message == "sukseshapus"){
 					 }
 
 			 });
-			 var table = $("#mytable9a").dataTable({
+			 var table = $("#mytable1f").dataTable({
 
-							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas9a_json'?>", "type": "POST"},
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas1f_json'?>", "type": "POST"},
 									columns: [
 												{"data": "guru_kode"},
 												{"data": "guru_nama"},
@@ -632,9 +1159,9 @@ elseif($message == "sukseshapus"){
 					 }
 
 			 });
-			 var table = $("#mytable9b").dataTable({
+			 var table = $("#mytable1g").dataTable({
 
-							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas9b_json'?>", "type": "POST"},
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas1g_json'?>", "type": "POST"},
 									columns: [
 												{"data": "guru_kode"},
 												{"data": "guru_nama"},
@@ -650,9 +1177,627 @@ elseif($message == "sukseshapus"){
 					 }
 
 			 });
-			 var table = $("#mytable9c").dataTable({
 
-							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas9c_json'?>", "type": "POST"},
+
+var table = $("#mytable2a").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas2a_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable2b").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas2b_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable2c").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas2c_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable2d").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas2d_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable2e").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas2e_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable2f").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas2f_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable2g").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas2g_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+
+			 var table = $("#mytable3a").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas3a_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable3b").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas3b_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable3c").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas3c_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable3d").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas3d_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable3e").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas3e_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable3f").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas3f_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable3g").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas3g_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+
+			 var table = $("#mytable4a").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas4a_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable4b").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas4b_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable4c").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas4c_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable4d").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas4d_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable4e").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas4e_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable4f").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas4f_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable4g").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas4g_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+
+			 var table = $("#mytable5a").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas5a_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable5b").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas5b_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable5c").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas5c_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable5d").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas5d_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable5e").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas5e_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable5f").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas5f_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable5g").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas5g_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+
+			 var table = $("#mytable6a").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas6a_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable6b").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas6b_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable6c").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas6c_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable6d").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas6d_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable6e").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas6e_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable6f").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas6f_json'?>", "type": "POST"},
+									columns: [
+												{"data": "guru_kode"},
+												{"data": "guru_nama"},
+												 {"data": "role_nama"},
+                         {"data": "kelas_nama"}
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable6g").dataTable({
+
+							 ajax: {"url": "<?php echo base_url().'index.php/walikelas/get_kelas6g_json'?>", "type": "POST"},
 									columns: [
 												{"data": "guru_kode"},
 												{"data": "guru_nama"},

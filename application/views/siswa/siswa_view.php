@@ -114,12 +114,7 @@
 																<input type="text" name="alamat_siswa" class="form-control" placeholder="" required>
 																</div></div>
 
-																<div class="col-md-3"><div class="form-group label-floating">
-																	<label for="role" class="control-label">Role siswa</label>
-																	<select name="role" class="form-control" placeholder="" required>
-																			 <option value="3">Siswa</option>
-																	</select>																	</div></div>
-
+																
 																</div>
 
 

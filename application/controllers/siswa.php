@@ -35,7 +35,7 @@ class siswa extends CI_Controller{
       'siswa_tlp'     => $this->input->post('tlp'),
       'siswa_alamat'     => $this->input->post('alamat_siswa'),
       'siswa_wali'     => $this->input->post('wali_siswa'),
-      'siswa_role_id' => $this->input->post('role'),
+      'siswa_role_id' => '3',
       'siswa_kelas_id' => '1',
       'siswa_mapel_id' => '1'
 

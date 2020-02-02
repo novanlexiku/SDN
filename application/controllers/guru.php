@@ -30,7 +30,7 @@ class guru extends CI_Controller{
       'guru_tgllhr'     => $this->input->post('tgllhr_guru'),
       'guru_tlp'     => $this->input->post('tlp'),
       'guru_alamat'     => $this->input->post('alamat_guru'),
-      'guru_role_id' => $this->input->post('role'),
+      'guru_role_id' => '2',
       'guru_kelas_id' => '1',
       'guru_mapel_id' => '1'
 
@@ -51,7 +51,7 @@ class guru extends CI_Controller{
       'guru_tgllhr'     => $this->input->post('tgllhr_guru'),
       'guru_tlp'     => $this->input->post('tlp'),
       'guru_alamat'     => $this->input->post('alamat_guru'),
-      'guru_role_id' => $this->input->post('role')
+      'guru_role_id' => '2'
     );
     $this->db->where('guru_kode',$kode);
     $this->db->update('guru', $data);

@@ -20,7 +20,7 @@
   <link href="<?php echo base_url().'assets/css/jquery.datatables.min.css'?>" rel="stylesheet" type="text/css"/>
   <link href="<?php echo base_url().'assets/css/dataTables.bootstrap.css'?>" rel="stylesheet" type="text/css"/>
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="<?php echo base_url()?>assets/dashboard/assets-for-demo/demo.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet" />
     <!-- iframe removal -->
 </head>
 

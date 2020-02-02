@@ -92,14 +92,7 @@
 
 
 
-																<div class="col-md-3"><div class="form-group label-floating">
-																	<label for="role" class="control-label">Role</label>
-																	<select name="role" class="form-control" placeholder="" required>
-																		 <?php foreach ($role->result() as $row) :?>
-																			 <option value="<?php echo $row->role_id;?>"><?php echo $row->role_nama;?></option>
-																		 <?php endforeach;?>
-																	</select>																	</div></div>
-
+																
 																</div>
 
 
@@ -240,14 +233,7 @@
 
 
 
-																<div class="col-md-3"><div class="form-group">
-																	<label for="role" class="control-label">Role</label>
-																	<select name="role" class="form-control" placeholder="" required>
-																		 <?php foreach ($role->result() as $row) :?>
-																			 <option value="<?php echo $row->role_id;?>"><?php echo $row->role_nama;?></option>
-																		 <?php endforeach;?>
-																	</select>																	</div></div>
-
+																
 																</div>
 
 							 </div>

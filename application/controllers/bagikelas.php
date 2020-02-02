@@ -24,39 +24,39 @@ class bagikelas extends CI_Controller{
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_siswa();
   }
-  function get_kelas7a_json() { //data kelas7a by JSON object
+  function get_kelas7a_json() { //data kelas1a by JSON object
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_kelas7a();
   }
-  function get_kelas7b_json() { //data kelas7b by JSON object
+  function get_kelas7b_json() { //data kelas1b by JSON object
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_kelas7b();
   }
-  function get_kelas7c_json() { //data kelas7c by JSON object
+  function get_kelas7c_json() { //data kelas1c by JSON object
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_kelas7c();
   }
-  function get_kelas8a_json() { //data kelas8a by JSON object
+  function get_kelas8a_json() { //data kelas2a by JSON object
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_kelas8a();
   }
-  function get_kelas8b_json() { //data kelas8b by JSON object
+  function get_kelas8b_json() { //data kelas2b by JSON object
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_kelas8b();
   }
-  function get_kelas8c_json() { //data kelas8c by JSON object
+  function get_kelas8c_json() { //data kelas2c by JSON object
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_kelas8c();
   }
-  function get_kelas9a_json() { //data kelas9a by JSON object
+  function get_kelas9a_json() { //data kelas3a by JSON object
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_kelas9a();
   }
-  function get_kelas9b_json() { //data kelas9b by JSON object
+  function get_kelas9b_json() { //data kelas3b by JSON object
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_kelas9b();
   }
-  function get_kelas9c_json() { //data kelas9c by JSON object
+  function get_kelas9c_json() { //data kelas3c by JSON object
     header('Content-Type: application/json');
     echo $this->bagikelas_model->get_all_kelas9c();
   }

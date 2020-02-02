@@ -36,7 +36,7 @@
 				</div>
 		</div>
 </div>
-<!-- Modal Add guru-->
+<!-- Modal Add Admin-->
 	<form id="add-row-form" action="<?php echo base_url().'index.php/admin/simpan'?>" method="post">
 		 <div class="modal fade" id="myModalAdd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
@@ -90,17 +90,6 @@
 															<label for="alamat_guru" class="control-label">Alamat</label>
 															<input type="text" name="alamat_guru" class="form-control" placeholder="" required>
 															</div></div>
-
-
-
-																<div class="col-md-3"><div class="form-group label-floating">
-																	<label for="role" class="control-label">Role</label>
-																	<select name="role" class="form-control" placeholder="" required>
-																			 <option value="1">Admin</option>
-																	</select>																	</div></div>
-																	
-
-																
 
 																</div>
 
@@ -314,7 +303,8 @@
  <!-- Material Dashboard dataTables -->
  <script src="<?php echo base_url()?>assets/js/jquery.datatables.min.js"></script>
  <script src="<?php echo base_url()?>assets/js/dataTables.bootstrap.js"></script>
-  <script src="<?php echo base_url()?>assets/js/bootstrap-datepicker.js"></script>
+  <!-- <script src="<?php echo base_url()?>assets/js/bootstrap-datepicker.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 
  <?php
   $message = $this->session->flashdata('message');

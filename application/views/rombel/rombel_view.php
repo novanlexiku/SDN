@@ -5,7 +5,7 @@
 		<div class="container-fluid">
 				<div class="row">
 				<?php if ($this->session->userdata('user_role_id')=='1') { ?>
-
+ 
 					<div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="card card-stats">
                                 <div class="card-header card-header-warning card-header-icon">
@@ -13,7 +13,7 @@
                                         <i class="material-icons">filter_1</i>
                                     </div>
                                     <p class="card-category">Total :</p>
-                                    <h3 class="card-title"><?php echo $siswa7a ?>
+                                    <h3 class="card-title"><?php echo $siswa1a ?>
                                         <small>Siswa</small>
                                     </h3>
                                 </div>
@@ -30,7 +30,7 @@
                                         <i class="material-icons">filter_2</i>
                                     </div>
                                     <p class="card-category">Total :</p>
-                                    <h3 class="card-title"><?php echo $siswa8a ?>
+                                    <h3 class="card-title"><?php echo $siswa2a ?>
                                         <small>Siswa</small>
                                     </h3>
                                 </div>
@@ -47,7 +47,7 @@
                                         <i class="material-icons">filter_3</i>
                                     </div>
                                     <p class="card-category">Total :</p>
-                                    <h3 class="card-title"><?php echo $siswa9a ?>
+                                    <h3 class="card-title"><?php echo $siswa3a ?>
                                         <small>Siswa</small>
                                     </h3>
                                 </div>
@@ -64,7 +64,7 @@
                                         <i class="material-icons">filter_4</i>
                                     </div>
                                     <p class="card-category">Total :</p>
-                                    <h3 class="card-title"><?php echo $siswa9a ?>
+                                    <h3 class="card-title"><?php echo $siswa4a ?>
                                         <small>Siswa</small>
                                     </h3>
                                 </div>
@@ -81,7 +81,7 @@
                                         <i class="material-icons">filter_5</i>
                                     </div>
                                     <p class="card-category">Total :</p>
-                                    <h3 class="card-title"><?php echo $siswa9a ?>
+                                    <h3 class="card-title"><?php echo $siswa5a ?>
                                         <small>Siswa</small>
                                     </h3>
                                 </div>
@@ -98,7 +98,7 @@
                                         <i class="material-icons">filter_6</i>
                                     </div>
                                     <p class="card-category">Total :</p>
-                                    <h3 class="card-title"><?php echo $siswa9a ?>
+                                    <h3 class="card-title"><?php echo $siswa6a ?>
                                         <small>Siswa</small>
                                     </h3>
                                 </div>

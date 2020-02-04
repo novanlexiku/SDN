@@ -123,42 +123,42 @@
                 <ul class="nav nav-tabs" data-tabs="tabs">
                 	<?php if ($this->session->userdata('user_role_id')=='1') { ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="#siswa7a" data-toggle="tab"><i class="material-icons">filter_1</i>
+                        <a class="nav-link" href="#siswa1a" data-toggle="tab"><i class="material-icons">filter_1</i>
                                   			siswa 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#siswa8a" data-toggle="tab"><i class="material-icons">filter_2</i>
+                        <a class="nav-link" href="#siswa2a" data-toggle="tab"><i class="material-icons">filter_2</i>
                                   			siswa 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#siswa9a" data-toggle="tab"><i class="material-icons">filter_3</i>
+                        <a class="nav-link" href="#siswa3a" data-toggle="tab"><i class="material-icons">filter_3</i>
                                   			siswa 3</a>
                     </li>
 					<li class="nav-item">
-                        <a class="nav-link" href="#siswa9a" data-toggle="tab"><i class="material-icons">filter_4</i>
+                        <a class="nav-link" href="#siswa4a" data-toggle="tab"><i class="material-icons">filter_4</i>
                                   			siswa 4</a>
                     </li>
 					<li class="nav-item">
-                        <a class="nav-link" href="#siswa9a" data-toggle="tab"><i class="material-icons">filter_5</i>
+                        <a class="nav-link" href="#siswa5a" data-toggle="tab"><i class="material-icons">filter_5</i>
                                   			siswa 5</a>
                     </li>
 					<li class="nav-item">
-                        <a class="nav-link" href="#siswa9a" data-toggle="tab"><i class="material-icons">filter_6</i>
+                        <a class="nav-link" href="#siswa6a" data-toggle="tab"><i class="material-icons">filter_6</i>
                                   			siswa 6</a>
                     </li>
-                    <?php } elseif ($this->session->userdata('user_role_id')=='2'&&$this->session->userdata('user_kelas_id')=='701') { ?>
+                    <?php } elseif ($this->session->userdata('user_role_id')=='2'&&$this->session->userdata('user_kelas_id')=='101') { ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="#siswa7a" data-toggle="tab"><i class="material-icons">filter_7</i>
+                        <a class="nav-link" href="#siswa1a" data-toggle="tab"><i class="material-icons">filter_7</i>
                                   			siswa 7-A</a>
                     </li>
-                    <?php } elseif ($this->session->userdata('user_role_id')=='2'&&$this->session->userdata('user_kelas_id')=='801') { ?>
+                    <?php } elseif ($this->session->userdata('user_role_id')=='2'&&$this->session->userdata('user_kelas_id')=='201') { ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="#siswa8a" data-toggle="tab"><i class="material-icons">filter_8</i>
+                        <a class="nav-link" href="#siswa2a" data-toggle="tab"><i class="material-icons">filter_8</i>
                                   			siswa 8-A</a>
                     </li>
-                    <?php } elseif ($this->session->userdata('user_role_id')=='2'&&$this->session->userdata('user_kelas_id')=='901') { ?>
+                    <?php } elseif ($this->session->userdata('user_role_id')=='2'&&$this->session->userdata('user_kelas_id')=='301') { ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="#siswa9a" data-toggle="tab"><i class="material-icons">filter_9</i>
+                        <a class="nav-link" href="#siswa3a" data-toggle="tab"><i class="material-icons">filter_9</i>
                                   			siswa 9-A</a>
                     </li>
                     <!-- End-->
@@ -170,8 +170,8 @@
         </div>
     </div><div class="card-body ">
         <div class="tab-content text-center">
-            <div class="tab-pane" id="siswa7a">
-                <table class="table table-hover" id="mytable7a">
+            <div class="tab-pane" id="siswa1a">
+                <table class="table table-hover" id="mytable1a">
                                             <thead class=" text-primary">
                                                 <tr>
 																<th>NIS</th>
@@ -181,8 +181,8 @@
                                             </thead>
                                          </table>
             </div>
-            <div class="tab-pane" id="siswa8a">
-                <table class="table table-hover" id="mytable8a">
+            <div class="tab-pane" id="siswa2a">
+                <table class="table table-hover" id="mytable2a">
                                             <thead class=" text-primary">
                                                 <tr>
 																<th>NIS</th>
@@ -192,8 +192,41 @@
                                             </thead>
                                          </table>
             </div>
-            <div class="tab-pane" id="siswa9a">
-                <table class="table table-hover" id="mytable9a">
+            <div class="tab-pane" id="siswa3a">
+                <table class="table table-hover" id="mytable3a">
+                                            <thead class=" text-primary">
+                                                <tr>
+																<th>NIS</th>
+																<th>Nama</th>												
+																<th>Nilai</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="siswa4a">
+                <table class="table table-hover" id="mytable4a">
+                                            <thead class=" text-primary">
+                                                <tr>
+																<th>NIS</th>
+																<th>Nama</th>												
+																<th>Nilai</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="siswa5a">
+                <table class="table table-hover" id="mytable5a">
+                                            <thead class=" text-primary">
+                                                <tr>
+																<th>NIS</th>
+																<th>Nama</th>												
+																<th>Nilai</th>
+															</tr>
+                                            </thead>
+                                         </table>
+            </div>
+			<div class="tab-pane" id="siswa6a">
+                <table class="table table-hover" id="mytable6a">
                                             <thead class=" text-primary">
                                                 <tr>
 																<th>NIS</th>
@@ -438,8 +471,6 @@
 								</div>
 						</div>
 					 	
-
-
 								<!-- End-->
                                   	<?php
            							 }
@@ -456,7 +487,7 @@
 </form>
 
 <!-- Modal Update siswa-->
-	<form id="add-row-form" action="<?php echo base_url().'index.php/rombel/update'?>" method="post">
+	<form id="add-row-form" action="<?php echo base_url().'index.php/rombel/update1'?>" method="post">
 		 <div class="modal fade" id="ModalUpdate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 					 <div class="modal-content">
@@ -768,7 +799,7 @@ elseif($message == "sukseshapus"){
 			 };
 
 
-       var table = $("#mytable7a").dataTable({
+       var table = $("#mytable1a").dataTable({
 					 initComplete: function() {
 							 var api = this.api();
 							 $('#mytable_filter input')
@@ -782,7 +813,7 @@ elseif($message == "sukseshapus"){
 					 },
 							 processing: true,
 							 serverSide: true,
-							 ajax: {"url": "<?php echo base_url().'index.php/rombel/get_siswa7a_json'?>", "type": "POST"},
+							 ajax: {"url": "<?php echo base_url().'index.php/rombel/get_siswa1a_json'?>", "type": "POST"},
 									columns: [
 												{"data": "siswa_kode"},
 												{"data": "siswa_nama"},												
@@ -799,7 +830,7 @@ elseif($message == "sukseshapus"){
 					 }
 
 			 });
-       var table = $("#mytable8a").dataTable({
+       var table = $("#mytable2a").dataTable({
            initComplete: function() {
                var api = this.api();
                $('#mytable_filter input')
@@ -813,7 +844,7 @@ elseif($message == "sukseshapus"){
            },
                processing: true,
                serverSide: true,
-               ajax: {"url": "<?php echo base_url().'index.php/rombel/get_siswa8a_json'?>", "type": "POST"},
+               ajax: {"url": "<?php echo base_url().'index.php/rombel/get_siswa2a_json'?>", "type": "POST"},
                   columns: [
                         						{"data": "siswa_kode"},
 												{"data": "siswa_nama"},												
@@ -829,7 +860,7 @@ elseif($message == "sukseshapus"){
            }
 
        });
-       var table = $("#mytable9a").dataTable({
+       var table = $("#mytable3a").dataTable({
 					 initComplete: function() {
 							 var api = this.api();
 							 $('#mytable_filter input')
@@ -843,7 +874,97 @@ elseif($message == "sukseshapus"){
 					 },
 							 processing: true,
 							 serverSide: true,
-							 ajax: {"url": "<?php echo base_url().'index.php/rombel/get_siswa9a_json'?>", "type": "POST"},
+							 ajax: {"url": "<?php echo base_url().'index.php/rombel/get_siswa3a_json'?>", "type": "POST"},
+									columns: [
+												{"data": "siswa_kode"},
+												{"data": "siswa_nama"},												
+												{"data": "view"}
+
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable4a").dataTable({
+					 initComplete: function() {
+							 var api = this.api();
+							 $('#mytable_filter input')
+									 .off('.DT')
+									 .on('input.DT', function() {
+											 api.search(this.value).draw();
+							 });
+					 },
+							 oLanguage: {
+							 sProcessing: "loading..."
+					 },
+							 processing: true,
+							 serverSide: true,
+							 ajax: {"url": "<?php echo base_url().'index.php/rombel/get_siswa4a_json'?>", "type": "POST"},
+									columns: [
+												{"data": "siswa_kode"},
+												{"data": "siswa_nama"},												
+												{"data": "view"}
+
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable5a").dataTable({
+					 initComplete: function() {
+							 var api = this.api();
+							 $('#mytable_filter input')
+									 .off('.DT')
+									 .on('input.DT', function() {
+											 api.search(this.value).draw();
+							 });
+					 },
+							 oLanguage: {
+							 sProcessing: "loading..."
+					 },
+							 processing: true,
+							 serverSide: true,
+							 ajax: {"url": "<?php echo base_url().'index.php/rombel/get_siswa5a_json'?>", "type": "POST"},
+									columns: [
+												{"data": "siswa_kode"},
+												{"data": "siswa_nama"},												
+												{"data": "view"}
+
+									 ],
+							order: [[1, 'asc']],
+					 rowCallback: function(row, data, iDisplayIndex) {
+							 var info = this.fnPagingInfo();
+							 var page = info.iPage;
+							 var length = info.iLength;
+							 $('td:eq(0)', row).html();
+					 }
+
+			 });
+			 var table = $("#mytable6a").dataTable({
+					 initComplete: function() {
+							 var api = this.api();
+							 $('#mytable_filter input')
+									 .off('.DT')
+									 .on('input.DT', function() {
+											 api.search(this.value).draw();
+							 });
+					 },
+							 oLanguage: {
+							 sProcessing: "loading..."
+					 },
+							 processing: true,
+							 serverSide: true,
+							 ajax: {"url": "<?php echo base_url().'index.php/rombel/get_siswa6a_json'?>", "type": "POST"},
 									columns: [
 												{"data": "siswa_kode"},
 												{"data": "siswa_nama"},												
@@ -862,7 +983,7 @@ elseif($message == "sukseshapus"){
 			// end setup datatables
 			
 			// get View Records
-			$('#mytable7a').on('click','.view_record',function(){
+			$('#mytable1a').on('click','.view_record',function(){
 							var kode=$(this).data('kode');
 						 var agama=$(this).data('agama');
 						var indo=$(this).data('indo');
@@ -885,7 +1006,7 @@ elseif($message == "sukseshapus"){
 						$('[name="nilai_TIK"]').val(tik);
 
 						 });
-			$('#mytable8a').on('click','.view_record',function(){
+			$('#mytable2a').on('click','.view_record',function(){
 				var kode=$(this).data('kode');
 						 var agama=$(this).data('agama');
 						var indo=$(this).data('indo');
@@ -908,7 +1029,76 @@ elseif($message == "sukseshapus"){
 						$('[name="nilai_TIK"]').val(tik);
 
 						 });
-			$('#mytable9a').on('click','.view_record',function(){
+			$('#mytable3a').on('click','.view_record',function(){
+				var kode=$(this).data('kode');
+						 var agama=$(this).data('agama');
+						var indo=$(this).data('indo');
+						var ing=$(this).data('ing');
+						var ipa=$(this).data('ipa');
+						var ips=$(this).data('ips');
+						var mtk=$(this).data('mtk');
+						var pkn=$(this).data('pkn');
+						var tik=$(this).data('tik');
+						//show modal start
+						 $('#ModalView').modal('show');
+						 $('[name="kode_siswa"]').val(kode);
+						$('[name="nilai_agama"]').val(agama);
+						$('[name="nilai_b_indonesia"]').val(indo);
+						$('[name="nilai_b_inggris"]').val(ing);
+						$('[name="nilai_IPA"]').val(ipa);
+						$('[name="nilai_IPS"]').val(ips);
+						$('[name="nilai_matematika"]').val(mtk);
+						$('[name="nilai_PKN"]').val(pkn);
+						$('[name="nilai_TIK"]').val(tik);
+
+						 });
+			$('#mytable4a').on('click','.view_record',function(){
+				var kode=$(this).data('kode');
+						 var agama=$(this).data('agama');
+						var indo=$(this).data('indo');
+						var ing=$(this).data('ing');
+						var ipa=$(this).data('ipa');
+						var ips=$(this).data('ips');
+						var mtk=$(this).data('mtk');
+						var pkn=$(this).data('pkn');
+						var tik=$(this).data('tik');
+						//show modal start
+						 $('#ModalView').modal('show');
+						 $('[name="kode_siswa"]').val(kode);
+						$('[name="nilai_agama"]').val(agama);
+						$('[name="nilai_b_indonesia"]').val(indo);
+						$('[name="nilai_b_inggris"]').val(ing);
+						$('[name="nilai_IPA"]').val(ipa);
+						$('[name="nilai_IPS"]').val(ips);
+						$('[name="nilai_matematika"]').val(mtk);
+						$('[name="nilai_PKN"]').val(pkn);
+						$('[name="nilai_TIK"]').val(tik);
+
+						 });
+		$('#mytable5a').on('click','.view_record',function(){
+				var kode=$(this).data('kode');
+						 var agama=$(this).data('agama');
+						var indo=$(this).data('indo');
+						var ing=$(this).data('ing');
+						var ipa=$(this).data('ipa');
+						var ips=$(this).data('ips');
+						var mtk=$(this).data('mtk');
+						var pkn=$(this).data('pkn');
+						var tik=$(this).data('tik');
+						//show modal start
+						 $('#ModalView').modal('show');
+						 $('[name="kode_siswa"]').val(kode);
+						$('[name="nilai_agama"]').val(agama);
+						$('[name="nilai_b_indonesia"]').val(indo);
+						$('[name="nilai_b_inggris"]').val(ing);
+						$('[name="nilai_IPA"]').val(ipa);
+						$('[name="nilai_IPS"]').val(ips);
+						$('[name="nilai_matematika"]').val(mtk);
+						$('[name="nilai_PKN"]').val(pkn);
+						$('[name="nilai_TIK"]').val(tik);
+
+						 });
+		$('#mytable6a').on('click','.view_record',function(){
 				var kode=$(this).data('kode');
 						 var agama=$(this).data('agama');
 						var indo=$(this).data('indo');
@@ -937,7 +1127,7 @@ elseif($message == "sukseshapus"){
 
 			// End View Records
 			// get Edit Records
-			$('#mytable7a').on('click','.edit_record',function(){
+			$('#mytable1a').on('click','.edit_record',function(){
 				var kode=$(this).data('kode');
 						 var agama=$(this).data('agama');
 						var indo=$(this).data('indo');
@@ -959,7 +1149,7 @@ elseif($message == "sukseshapus"){
 						$('[name="nilai_TIK"]').val(tik);
 
 			 });
-			$('#mytable8a').on('click','.edit_record',function(){
+			$('#mytable2a').on('click','.edit_record',function(){
 				var kode=$(this).data('kode');
 						 var agama=$(this).data('agama');
 						var indo=$(this).data('indo');
@@ -981,7 +1171,73 @@ elseif($message == "sukseshapus"){
 						$('[name="nilai_TIK"]').val(tik);
 
 			 });
-			$('#mytable9a').on('click','.edit_record',function(){
+			$('#mytable3a').on('click','.edit_record',function(){
+				var kode=$(this).data('kode');
+						 var agama=$(this).data('agama');
+						var indo=$(this).data('indo');
+						var ing=$(this).data('ing');
+						var ipa=$(this).data('ipa');
+						var ips=$(this).data('ips');
+						var mtk=$(this).data('mtk');
+						var pkn=$(this).data('pkn');
+						var tik=$(this).data('tik');
+						 $('#ModalUpdate').modal('show');
+						 $('[name="kode_siswa"]').val(kode);
+						 $('[name="nilai_agama"]').val(agama);
+						$('[name="nilai_b_indonesia"]').val(indo);
+						$('[name="nilai_b_inggris"]').val(ing);
+						$('[name="nilai_IPA"]').val(ipa);
+						$('[name="nilai_IPS"]').val(ips);
+						$('[name="nilai_matematika"]').val(mtk);
+						$('[name="nilai_PKN"]').val(pkn);
+						$('[name="nilai_TIK"]').val(tik);
+
+			 });
+			 $('#mytable4a').on('click','.edit_record',function(){
+				var kode=$(this).data('kode');
+						 var agama=$(this).data('agama');
+						var indo=$(this).data('indo');
+						var ing=$(this).data('ing');
+						var ipa=$(this).data('ipa');
+						var ips=$(this).data('ips');
+						var mtk=$(this).data('mtk');
+						var pkn=$(this).data('pkn');
+						var tik=$(this).data('tik');
+						 $('#ModalUpdate').modal('show');
+						 $('[name="kode_siswa"]').val(kode);
+						 $('[name="nilai_agama"]').val(agama);
+						$('[name="nilai_b_indonesia"]').val(indo);
+						$('[name="nilai_b_inggris"]').val(ing);
+						$('[name="nilai_IPA"]').val(ipa);
+						$('[name="nilai_IPS"]').val(ips);
+						$('[name="nilai_matematika"]').val(mtk);
+						$('[name="nilai_PKN"]').val(pkn);
+						$('[name="nilai_TIK"]').val(tik);
+
+			 });
+			 $('#mytable5a').on('click','.edit_record',function(){
+				var kode=$(this).data('kode');
+						 var agama=$(this).data('agama');
+						var indo=$(this).data('indo');
+						var ing=$(this).data('ing');
+						var ipa=$(this).data('ipa');
+						var ips=$(this).data('ips');
+						var mtk=$(this).data('mtk');
+						var pkn=$(this).data('pkn');
+						var tik=$(this).data('tik');
+						 $('#ModalUpdate').modal('show');
+						 $('[name="kode_siswa"]').val(kode);
+						 $('[name="nilai_agama"]').val(agama);
+						$('[name="nilai_b_indonesia"]').val(indo);
+						$('[name="nilai_b_inggris"]').val(ing);
+						$('[name="nilai_IPA"]').val(ipa);
+						$('[name="nilai_IPS"]').val(ips);
+						$('[name="nilai_matematika"]').val(mtk);
+						$('[name="nilai_PKN"]').val(pkn);
+						$('[name="nilai_TIK"]').val(tik);
+
+			 });
+			 $('#mytable6a').on('click','.edit_record',function(){
 				var kode=$(this).data('kode');
 						 var agama=$(this).data('agama');
 						var indo=$(this).data('indo');
@@ -1005,7 +1261,32 @@ elseif($message == "sukseshapus"){
 			 });
 			// End Edit Records
 // get Hapus Records
-			$('#mytable7a').on('click','.hapus_record',function(){
+			$('#mytable1a').on('click','.hapus_record',function(){
+						 var kode=$(this).data('kode');
+						 $('#ModalHapus').modal('show');
+						 $('[name="siswa_kode"]').val(kode);
+			 });
+			 $('#mytable2a').on('click','.hapus_record',function(){
+						 var kode=$(this).data('kode');
+						 $('#ModalHapus').modal('show');
+						 $('[name="siswa_kode"]').val(kode);
+			 });
+			 $('#mytable3a').on('click','.hapus_record',function(){
+						 var kode=$(this).data('kode');
+						 $('#ModalHapus').modal('show');
+						 $('[name="siswa_kode"]').val(kode);
+			 });
+			 $('#mytable4a').on('click','.hapus_record',function(){
+						 var kode=$(this).data('kode');
+						 $('#ModalHapus').modal('show');
+						 $('[name="siswa_kode"]').val(kode);
+			 });
+			 $('#mytable5a').on('click','.hapus_record',function(){
+						 var kode=$(this).data('kode');
+						 $('#ModalHapus').modal('show');
+						 $('[name="siswa_kode"]').val(kode);
+			 });
+			 $('#mytable6a').on('click','.hapus_record',function(){
 						 var kode=$(this).data('kode');
 						 $('#ModalHapus').modal('show');
 						 $('[name="siswa_kode"]').val(kode);

@@ -97,7 +97,8 @@
                 </ul>
             </div>
         </div>
-    </div><div class="card-body ">
+    </div>
+	<div class="card-body ">
         <div class="tab-content text-center">
             <div class="tab-pane active" id="kelas-1a">
                 <table class="table table-hover" id="mytable1a">

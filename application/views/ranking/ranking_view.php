@@ -1,25 +1,11 @@
 <div class="content">
 <div class="container-fluid">
-  
+   
     <div class="row">
-        <div class="col-md-4">
+    <div class="col-md-4">
             <div class="card card-stats">
                                         <div class="card-header" data-background-color="green">
-                                               <a href="<?php echo site_url('ranking/ranking7a'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>A</strong></a>
-                                        </div>
-                                        <div class="card-content">
-                                                
-                                        </div>
-                                        <div class="card-footer">
-                                                <div class="stats">
-                                                </div>
-                                        </div>
-                                </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card card-stats">
-                                        <div class="card-header" data-background-color="green">
-                                               <a href="<?php echo site_url('ranking/ranking7b'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>B</strong></a>
+                                               <a href="<?php echo site_url('ranking/ranking1a'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>A</strong></a>
                                         </div>
                                         <div class="card-content">
                                                 
@@ -33,7 +19,7 @@
         <div class="col-md-4">
             <div class="card card-stats">
                                         <div class="card-header" data-background-color="green">
-                                                <a href="<?php echo site_url('ranking/ranking7c'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>C</strong></a>
+                                               <a href="<?php echo site_url('ranking/ranking1b'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>B</strong></a>
                                         </div>
                                         <div class="card-content">
                                                 
@@ -46,8 +32,22 @@
         </div>
         <div class="col-md-4">
             <div class="card card-stats">
-                                        <div class="card-header" data-background-color="blue">
-                                                <a href="<?php echo site_url('ranking/ranking8a'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>A</strong></a>
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking1c'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>C</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking1d'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>D</strong></a>
                                         </div>
                                         <div class="card-content">
                                                 
@@ -60,8 +60,8 @@
         </div>
         <div class="col-md-4">
             <div class="card card-stats">
-                                        <div class="card-header" data-background-color="blue">
-                                                <a href="<?php echo site_url('ranking/ranking8b'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>B</strong></a>
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking1e'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>E</strong></a>
                                         </div>
                                         <div class="card-content">
                                                 
@@ -74,8 +74,22 @@
         </div>
         <div class="col-md-4">
             <div class="card card-stats">
-                                        <div class="card-header" data-background-color="blue">
-                                                <a href="<?php echo site_url('ranking/ranking8c'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>C</strong></a>
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking1f'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>F</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking1g'); ?>"> <small>Kelas</small> <i class="material-icons">filter_1</i><strong>G</strong></a>
                                         </div>
                                         <div class="card-content">
                                                 
@@ -88,8 +102,8 @@
         </div>
         <div class="col-md-4">
             <div class="card card-stats">
-                                        <div class="card-header" data-background-color="purple">
-                                                <a href="<?php echo site_url('ranking/ranking9a'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>A</strong></a>
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking2a'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>A</strong></a>
                                         </div>
                                         <div class="card-content">
                                                 
@@ -102,8 +116,8 @@
         </div>
         <div class="col-md-4">
             <div class="card card-stats">
-                                        <div class="card-header" data-background-color="purple">
-                                                <a href="<?php echo site_url('ranking/ranking9b'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>B</strong></a>
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking2b'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>B</strong></a>
                                         </div>
                                         <div class="card-content">
                                                 
@@ -116,8 +130,456 @@
         </div>
         <div class="col-md-4">
             <div class="card card-stats">
-                                        <div class="card-header" data-background-color="purple">
-                                                <a href="<?php echo site_url('ranking/ranking9c'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>C</strong></a>
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking2c'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>C</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking2d'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>D</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking2e'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>E</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking2f'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>F</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking2g'); ?>"> <small>Kelas</small> <i class="material-icons">filter_2</i><strong>G</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking3a'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>A</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking3b'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>B</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking3c'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>C</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking3d'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>D</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking3e'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>E</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking3f'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>F</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking3g'); ?>"> <small>Kelas</small> <i class="material-icons">filter_3</i><strong>G</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking4a'); ?>"> <small>Kelas</small> <i class="material-icons">filter_4</i><strong>A</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking4b'); ?>"> <small>Kelas</small> <i class="material-icons">filter_4</i><strong>B</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking4c'); ?>"> <small>Kelas</small> <i class="material-icons">filter_4</i><strong>C</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking4d'); ?>"> <small>Kelas</small> <i class="material-icons">filter_4</i><strong>D</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking4e'); ?>"> <small>Kelas</small> <i class="material-icons">filter_4</i><strong>E</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking4f'); ?>"> <small>Kelas</small> <i class="material-icons">filter_4</i><strong>F</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking4g'); ?>"> <small>Kelas</small> <i class="material-icons">filter_4</i><strong>G</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking5a'); ?>"> <small>Kelas</small> <i class="material-icons">filter_5</i><strong>A</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking5b'); ?>"> <small>Kelas</small> <i class="material-icons">filter_5</i><strong>B</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking5c'); ?>"> <small>Kelas</small> <i class="material-icons">filter_5</i><strong>C</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking5d'); ?>"> <small>Kelas</small> <i class="material-icons">filter_5</i><strong>D</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking5e'); ?>"> <small>Kelas</small> <i class="material-icons">filter_5</i><strong>E</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking5f'); ?>"> <small>Kelas</small> <i class="material-icons">filter_5</i><strong>F</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking5g'); ?>"> <small>Kelas</small> <i class="material-icons">filter_5</i><strong>G</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking6a'); ?>"> <small>Kelas</small> <i class="material-icons">filter_6</i><strong>A</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking6b'); ?>"> <small>Kelas</small> <i class="material-icons">filter_6</i><strong>B</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking6c'); ?>"> <small>Kelas</small> <i class="material-icons">filter_6</i><strong>C</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking6d'); ?>"> <small>Kelas</small> <i class="material-icons">filter_6</i><strong>D</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                               <a href="<?php echo site_url('ranking/ranking6e'); ?>"> <small>Kelas</small> <i class="material-icons">filter_6</i><strong>E</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking6f'); ?>"> <small>Kelas</small> <i class="material-icons">filter_6</i><strong>F</strong></a>
+                                        </div>
+                                        <div class="card-content">
+                                                
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="stats">
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card card-stats">
+                                        <div class="card-header" data-background-color="green">
+                                                <a href="<?php echo site_url('ranking/ranking6g'); ?>"> <small>Kelas</small> <i class="material-icons">filter_6</i><strong>G</strong></a>
                                         </div>
                                         <div class="card-content">
                                                 

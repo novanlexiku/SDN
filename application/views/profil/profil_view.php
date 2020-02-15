@@ -76,15 +76,15 @@
                                     <h6 class="card-category text-gray"><?php echo $this->session->userdata('role_nama');?></h6>
                                     <h4 class="card-title"><?php echo $this->session->userdata('user_nama');?></h4>
                                     
-<?php if ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='801'||$this->session->userdata('user_kelas_id')=='802'||$this->session->userdata('user_kelas_id')=='803'||$this->session->userdata('user_kelas_id')=='804'||$this->session->userdata('user_kelas_id')=='805'||$this->session->userdata('user_kelas_id')=='806'||$this->session->userdata('user_kelas_id')=='807'||$this->session->userdata('user_kelas_id')=='808'||$this->session->userdata('user_kelas_id')=='809') { ?>
+<?php if ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='201'||$this->session->userdata('user_kelas_id')=='202'||$this->session->userdata('user_kelas_id')=='203'||$this->session->userdata('user_kelas_id')=='204'||$this->session->userdata('user_kelas_id')=='205'||$this->session->userdata('user_kelas_id')=='206'||$this->session->userdata('user_kelas_id')=='207'||$this->session->userdata('user_kelas_id')=='208'||$this->session->userdata('user_kelas_id')=='209') { ?>
                                     <div class="row">
                                     <div class="card-header card-header-info card-header-icon">
                                    
-                                        <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#arsip7">Raport kelas 7</button>
+                                        <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#arsip1">Raport kelas 1</button>
 
                                     </div>
                                     </div>
-<?php } elseif ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='901'||$this->session->userdata('user_kelas_id')=='902'||$this->session->userdata('user_kelas_id')=='903'||$this->session->userdata('user_kelas_id')=='904'||$this->session->userdata('user_kelas_id')=='905'||$this->session->userdata('user_kelas_id')=='906'||$this->session->userdata('user_kelas_id')=='907'||$this->session->userdata('user_kelas_id')=='908'||$this->session->userdata('user_kelas_id')=='909') { ?>
+<?php } elseif ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='301'||$this->session->userdata('user_kelas_id')=='302'||$this->session->userdata('user_kelas_id')=='303'||$this->session->userdata('user_kelas_id')=='304'||$this->session->userdata('user_kelas_id')=='305'||$this->session->userdata('user_kelas_id')=='306'||$this->session->userdata('user_kelas_id')=='307'||$this->session->userdata('user_kelas_id')=='308'||$this->session->userdata('user_kelas_id')=='309') { ?>
 
                                     <div class="row">
                                     <div class="card-header card-header-info card-header-icon">
@@ -93,20 +93,20 @@
                                     </div>
 
                                     </div>
-                                        <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#arsip7">Raport kelas 7</button>
-                                        <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#arsip8">Raport kelas 8</button>
+                                        <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#arsip1">Raport kelas 1</button>
+                                        <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#arsip2">Raport kelas 2</button>
                                 <?php } ?>
                             </div>
                         </div>
                     </div>
 
-                                          <?php if ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='701'||$this->session->userdata('user_kelas_id')=='702'||$this->session->userdata('user_kelas_id')=='703'||$this->session->userdata('user_kelas_id')=='704'||$this->session->userdata('user_kelas_id')=='705'||$this->session->userdata('user_kelas_id')=='706'||$this->session->userdata('user_kelas_id')=='707'||$this->session->userdata('user_kelas_id')=='708'||$this->session->userdata('user_kelas_id')=='709') { ?>
+                <?php if ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='101'||$this->session->userdata('user_kelas_id')=='102'||$this->session->userdata('user_kelas_id')=='103'||$this->session->userdata('user_kelas_id')=='104'||$this->session->userdata('user_kelas_id')=='105'||$this->session->userdata('user_kelas_id')=='106'||$this->session->userdata('user_kelas_id')=='107'||$this->session->userdata('user_kelas_id')=='108'||$this->session->userdata('user_kelas_id')=='109') { ?>
 
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header card-header-primary">
-                                    <h4 class="card-title">Nilai Raport Kelas 7 <?php echo $this->session->userdata('user_nama');?></h4>
+                                    <h4 class="card-title">Nilai Raport Kelas 1 <?php echo $this->session->userdata('user_nama');?></h4>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
@@ -118,7 +118,7 @@
                                     </div>
                                     <p class="card-category">Agama :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_agama7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_agama1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -135,7 +135,7 @@
                                     </div>
                                     <p class="card-category">B.Indonesia :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_b_indonesia7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_b_indonesia1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -152,7 +152,7 @@
                                     </div>
                                     <p class="card-category">B.Inggris :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_b_inggris7');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_b_inggris1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -169,7 +169,7 @@
                                     </div>
                                     <p class="card-category">IPA :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPA7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPA1');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">
@@ -186,7 +186,7 @@
                                     </div>
                                     <p class="card-category">IPS :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPS7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPS1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -203,7 +203,7 @@
                                     </div>
                                     <p class="card-category">Matematika :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_matematika7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_matematika1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -220,7 +220,7 @@
                                     </div>
                                     <p class="card-category">PKN :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_PKN7');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_PKN1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -237,7 +237,7 @@
                                     </div>
                                     <p class="card-category">TIK :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_TIK7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_TIK1');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">
@@ -252,13 +252,13 @@
                         </div>
                         
                     </div>
-<?php } elseif ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='801'||$this->session->userdata('user_kelas_id')=='802'||$this->session->userdata('user_kelas_id')=='803'||$this->session->userdata('user_kelas_id')=='804'||$this->session->userdata('user_kelas_id')=='805'||$this->session->userdata('user_kelas_id')=='806'||$this->session->userdata('user_kelas_id')=='807'||$this->session->userdata('user_kelas_id')=='808'||$this->session->userdata('user_kelas_id')=='809') { ?>
+<?php } elseif ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='201'||$this->session->userdata('user_kelas_id')=='202'||$this->session->userdata('user_kelas_id')=='203'||$this->session->userdata('user_kelas_id')=='204'||$this->session->userdata('user_kelas_id')=='205'||$this->session->userdata('user_kelas_id')=='206'||$this->session->userdata('user_kelas_id')=='207'||$this->session->userdata('user_kelas_id')=='208'||$this->session->userdata('user_kelas_id')=='209') { ?>
 
                         <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header card-header-primary">
-                                    <h4 class="card-title">Nilai Raport Kelas 8 <?php echo $this->session->userdata('user_nama');?></h4>
+                                    <h4 class="card-title">Nilai Raport Kelas 2 <?php echo $this->session->userdata('user_nama');?></h4>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
@@ -270,7 +270,7 @@
                                     </div>
                                     <p class="card-category">Agama :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_agama8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_agama2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -287,7 +287,7 @@
                                     </div>
                                     <p class="card-category">B.Indonesia :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_b_indonesia8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_b_indonesia2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -304,7 +304,7 @@
                                     </div>
                                     <p class="card-category">B.Inggris :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_b_inggris8');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_b_inggris2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -321,7 +321,7 @@
                                     </div>
                                     <p class="card-category">IPA :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPA8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPA2');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">
@@ -338,7 +338,7 @@
                                     </div>
                                     <p class="card-category">IPS :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPS8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPS2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -355,7 +355,7 @@
                                     </div>
                                     <p class="card-category">Matematika :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_matematika8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_matematika2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -372,7 +372,7 @@
                                     </div>
                                     <p class="card-category">PKN :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_PKN8');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_PKN2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -389,7 +389,7 @@
                                     </div>
                                     <p class="card-category">TIK :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_TIK8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_TIK2');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">
@@ -405,13 +405,13 @@
                         
                     </div>
 
-<?php } elseif ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='901'||$this->session->userdata('user_kelas_id')=='902'||$this->session->userdata('user_kelas_id')=='903'||$this->session->userdata('user_kelas_id')=='904'||$this->session->userdata('user_kelas_id')=='905'||$this->session->userdata('user_kelas_id')=='906'||$this->session->userdata('user_kelas_id')=='907'||$this->session->userdata('user_kelas_id')=='908'||$this->session->userdata('user_kelas_id')=='909') { ?>
+<?php } elseif ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='301'||$this->session->userdata('user_kelas_id')=='302'||$this->session->userdata('user_kelas_id')=='303'||$this->session->userdata('user_kelas_id')=='304'||$this->session->userdata('user_kelas_id')=='305'||$this->session->userdata('user_kelas_id')=='306'||$this->session->userdata('user_kelas_id')=='307'||$this->session->userdata('user_kelas_id')=='308'||$this->session->userdata('user_kelas_id')=='309') { ?>
 
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header card-header-primary">
-                                    <h4 class="card-title">Nilai Raport Kelas 8 <?php echo $this->session->userdata('user_nama');?></h4>
+                                    <h4 class="card-title">Nilai Raport Kelas 3 <?php echo $this->session->userdata('user_nama');?></h4>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
@@ -423,7 +423,7 @@
                                     </div>
                                     <p class="card-category">Agama :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_agama9');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_agama3');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -440,7 +440,7 @@
                                     </div>
                                     <p class="card-category">B.Indonesia :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_b_indonesia9');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_b_indonesia3');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -457,7 +457,7 @@
                                     </div>
                                     <p class="card-category">B.Inggris :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_b_inggris9');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_b_inggris3');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -474,7 +474,7 @@
                                     </div>
                                     <p class="card-category">IPA :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPA9');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPA3');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">
@@ -491,7 +491,7 @@
                                     </div>
                                     <p class="card-category">IPS :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPS9');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPS3');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -508,7 +508,7 @@
                                     </div>
                                     <p class="card-category">Matematika :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_matematika9');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_matematika3');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -525,7 +525,7 @@
                                     </div>
                                     <p class="card-category">PKN :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_PKN9');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_PKN3');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -542,7 +542,7 @@
                                     </div>
                                     <p class="card-category">TIK :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_TIK9');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_TIK3');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">
@@ -557,19 +557,474 @@
                         </div>
                         
                     </div>
+    <?php } elseif ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='401'||$this->session->userdata('user_kelas_id')=='402'||$this->session->userdata('user_kelas_id')=='403'||$this->session->userdata('user_kelas_id')=='404'||$this->session->userdata('user_kelas_id')=='405'||$this->session->userdata('user_kelas_id')=='406'||$this->session->userdata('user_kelas_id')=='407'||$this->session->userdata('user_kelas_id')=='408'||$this->session->userdata('user_kelas_id')=='409') { ?>
 
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Nilai Raport Kelas 4 <?php echo $this->session->userdata('user_nama');?></h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">Agama :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_agama4');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">B.Indonesia :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_b_indonesia4');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">B.Inggris :</p>
+                <h3 class="card-title">
+                <small><?php echo $this->session->userdata('nilai_b_inggris4');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                 <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">IPA :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_IPA4');?></small>
+                    </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">IPS :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_IPS4');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">Matematika :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_matematika4');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">PKN :</p>
+                <h3 class="card-title">
+                <small><?php echo $this->session->userdata('nilai_PKN4');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                 <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">TIK :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_TIK4');?></small>
+                    </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<?php } elseif ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='501'||$this->session->userdata('user_kelas_id')=='502'||$this->session->userdata('user_kelas_id')=='503'||$this->session->userdata('user_kelas_id')=='504'||$this->session->userdata('user_kelas_id')=='505'||$this->session->userdata('user_kelas_id')=='506'||$this->session->userdata('user_kelas_id')=='507'||$this->session->userdata('user_kelas_id')=='508'||$this->session->userdata('user_kelas_id')=='509') { ?>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Nilai Raport Kelas 5 <?php echo $this->session->userdata('user_nama');?></h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">Agama :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_agama5');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">B.Indonesia :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_b_indonesia5');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">B.Inggris :</p>
+                <h3 class="card-title">
+                <small><?php echo $this->session->userdata('nilai_b_inggris5');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                 <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">IPA :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_IPA5');?></small>
+                    </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">IPS :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_IPS5');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">Matematika :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_matematika5');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">PKN :</p>
+                <h3 class="card-title">
+                <small><?php echo $this->session->userdata('nilai_PKN5');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                 <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">TIK :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_TIK5');?></small>
+                    </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<?php } elseif ($this->session->userdata('user_role_id')=='3' && $this->session->userdata('user_kelas_id')=='601'||$this->session->userdata('user_kelas_id')=='602'||$this->session->userdata('user_kelas_id')=='603'||$this->session->userdata('user_kelas_id')=='604'||$this->session->userdata('user_kelas_id')=='605'||$this->session->userdata('user_kelas_id')=='606'||$this->session->userdata('user_kelas_id')=='607'||$this->session->userdata('user_kelas_id')=='608'||$this->session->userdata('user_kelas_id')=='609') { ?>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Nilai Raport Kelas 6 <?php echo $this->session->userdata('user_nama');?></h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">Agama :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_agama6');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">B.Indonesia :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_b_indonesia6');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">B.Inggris :</p>
+                <h3 class="card-title">
+                <small><?php echo $this->session->userdata('nilai_b_inggris6');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                 <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">IPA :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_IPA6');?></small>
+                    </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">IPS :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_IPS6');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">Matematika :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_matematika6');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">PKN :</p>
+                <h3 class="card-title">
+                <small><?php echo $this->session->userdata('nilai_PKN6');?></small>
+                </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                 <i class="material-icons">school</i>
+                </div>
+                <p class="card-category">TIK :</p>
+                <h3 class="card-title">
+                    <small><?php echo $this->session->userdata('nilai_TIK6');?></small>
+                    </h3>
+            </div>
+            <div class="card-footer">
+                <div class="stats">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+    
+</div>
                                           <?php } ?>
 
                 </div>
             </div>
 
-<!-- Modal Arsip Raport kelas 7 siswa-->
-         <div class="modal fade" id="arsip7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- Modal Arsip Raport kelas 1 siswa-->
+         <div class="modal fade" id="arsip1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                      <div class="modal-content">
                              <div class="modal-header">
                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                     <h4 class="modal-title" id="myModalLabel">Arsip Nilai Raport Kelas 7 <?php echo $this->session->userdata('user_nama');?></h4>
+                                     <h4 class="modal-title" id="myModalLabel">Arsip Nilai Raport Kelas 1 <?php echo $this->session->userdata('user_nama');?></h4>
                              </div>
                              <div class="modal-body">
                                  <!-- Modal Body -->
@@ -582,7 +1037,7 @@
                                     </div>
                                     <p class="card-category">Agama :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_agama7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_agama1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -599,7 +1054,7 @@
                                     </div>
                                     <p class="card-category">B.Indo :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_b_indonesia7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_b_indonesia1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -616,7 +1071,7 @@
                                     </div>
                                     <p class="card-category">Eng :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_b_inggris7');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_b_inggris1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -633,7 +1088,7 @@
                                     </div>
                                     <p class="card-category">IPA :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPA7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPA1');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">
@@ -650,7 +1105,7 @@
                                     </div>
                                     <p class="card-category">IPS :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPS7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPS1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -667,7 +1122,7 @@
                                     </div>
                                     <p class="card-category">Math :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_matematika7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_matematika1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -684,7 +1139,7 @@
                                     </div>
                                     <p class="card-category">PKN :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_PKN7');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_PKN1');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -701,7 +1156,7 @@
                                     </div>
                                     <p class="card-category">TIK :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_TIK7');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_TIK1');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">
@@ -719,14 +1174,14 @@
          </div>
      </div>
 <!-- End Arsip-->
-<!-- Modal Arsip Raport kelas 8 siswa-->
-         <div class="modal fade" id="arsip8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- Modal Arsip Raport kelas 2 siswa-->
+         <div class="modal fade" id="arsip2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                      <div class="modal-content">
                              <div class="modal-header">
                                      
                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                     <h4 class="modal-title" id="myModalLabel">Arsip Nilai Raport Kelas 8 <?php echo $this->session->userdata('user_nama');?></h4>
+                                     <h4 class="modal-title" id="myModalLabel">Arsip Nilai Raport Kelas 2 <?php echo $this->session->userdata('user_nama');?></h4>
                              </div>
                              <div class="modal-body">
                                  <!-- Modal Body -->
@@ -739,7 +1194,7 @@
                                     </div>
                                     <p class="card-category">Agama :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_agama8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_agama2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -756,7 +1211,7 @@
                                     </div>
                                     <p class="card-category">B.Indo :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_b_indonesia8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_b_indonesia2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -773,7 +1228,7 @@
                                     </div>
                                     <p class="card-category">Eng :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_b_inggris8');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_b_inggris2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -790,7 +1245,7 @@
                                     </div>
                                     <p class="card-category">IPA :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPA8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPA2');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">
@@ -807,7 +1262,7 @@
                                     </div>
                                     <p class="card-category">IPS :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_IPS8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_IPS2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -824,7 +1279,7 @@
                                     </div>
                                     <p class="card-category">Math :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_matematika8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_matematika2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -841,7 +1296,7 @@
                                     </div>
                                     <p class="card-category">PKN :</p>
                                     <h3 class="card-title">
-                                    <small><?php echo $this->session->userdata('nilai_PKN8');?></small>
+                                    <small><?php echo $this->session->userdata('nilai_PKN2');?></small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -858,7 +1313,7 @@
                                     </div>
                                     <p class="card-category">TIK :</p>
                                     <h3 class="card-title">
-                                        <small><?php echo $this->session->userdata('nilai_TIK8');?></small>
+                                        <small><?php echo $this->session->userdata('nilai_TIK2');?></small>
                                         </h3>
                                 </div>
                                 <div class="card-footer">

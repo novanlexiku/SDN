@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/material-kit.css?v=2.0.2">
     <!-- Documentation extras -->
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="<?php echo base_url()?>assets/landing/assets-for-demo/demo.css" rel="stylesheet" />
     <!-- iframe removal -->
 </head>
 
@@ -55,7 +53,7 @@
             </div>
         </div>
     </nav>
-    <div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('<?php echo base_url()?>assets/landing/img/kit/gerbang.jpg');">
+    <div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('<?php echo base_url()?>assets/landing/img/kit/banner.jpeg');">
 
     </div>
     <div class="main main-raised">

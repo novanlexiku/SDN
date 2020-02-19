@@ -6,7 +6,7 @@
                             <div class="card">
                                 <div class="card-header card-header-primary">
                                     <h1 class="card-title ">Ranking</h1>
-                                    <p class="card-category" style="font-weight: bolder; font-size: 20px;">Kelas 1-A</p>
+                                    <p class="card-category" style="font-weight: bolder; font-size: 20px;">Kelas 3-D</p>
                                 </div>
                                 <div class="card-body">
                                     <div class="table-responsive">
@@ -20,7 +20,7 @@
                               </tr>
                                             </thead>
                                             <?php
-                                        foreach ($ranking1a->result() as $row)
+                                        foreach ($ranking3d->result() as $row)
                                         {
                                             ?>
                                             <tbody>

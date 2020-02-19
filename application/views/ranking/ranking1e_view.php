@@ -1,12 +1,12 @@
 
 <div class="content">
 <div class="container-fluid">
-    <div class="row">
+  <div class="row">
           <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header card-header-primary">
                                     <h1 class="card-title ">Ranking</h1>
-                                    <p class="card-category" style="font-weight: bolder; font-size: 20px;">Kelas 8-A</p>
+                                    <p class="card-category" style="font-weight: bolder; font-size: 20px;">Kelas 1-E</p>
                                 </div>
                                 <div class="card-body">
                                     <div class="table-responsive">
@@ -20,17 +20,17 @@
                               </tr>
                                             </thead>
                                             <?php
-                                        foreach ($ranking8a->result() as $row)
+                                        foreach ($ranking1e->result() as $row)
                                         {
                                             ?>
                                             <tbody>
                                             <tr>
-                                  <td width="50px" style="text-align: center; font-size: 40px; font-family: cursive;"><?php echo ++$start ?></td>
+                                  <td width="50px" style="text-align: center; font-size: 40px; font-family: arial;"><?php echo ++$start ?></td>
                                   <td><?php echo $row->siswa_kode ?></td>
                                   <td><?php echo $row->siswa_nama ?></td>
                                   <td><?php echo $row->total_nilai ?></td>
                                   
-                                
+                                 
                                               </tr>
                                               </tbody>
                                             <?php
@@ -43,6 +43,7 @@
                         </div>
             
         </div>
+    
 
         
   </div>
@@ -52,7 +53,7 @@
               
           </nav>
           <p class="copyright pull-right">
-              
+             
           </p>
       </div>
   </footer>
